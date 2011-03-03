@@ -1,0 +1,10 @@
+@charset "utf-8";
+/**
+ * WP Emoji2 styles
+ */
+#wp_emoji2_default {}
+#wp_emoji2_default img {
+    cursor: pointer;
+}
+
+
