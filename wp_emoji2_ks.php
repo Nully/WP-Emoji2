@@ -59,10 +59,10 @@ function wp_emoji2_ks_shortcode($attr = array()) {
  * @return Void
  * @action  admin_init
  */
-add_action("admin_init", "wp_emoji2_ks_admin_init");
+add_action("add_meta_boxes", "wp_emoji2_ks_admin_init");
 function wp_emoji2_ks_admin_init() {
-    add_meta_box("wp_emoji2_ks", "絵文字", "wp_emoji2_ks_metabox_layout", "post", "normal", "high");
-    add_meta_box("wp_emoji2_ks", "絵文字", "wp_emoji2_ks_metabox_layout", "page", "normal", "high");
+    add_meta_box("wp_emoji2_ks", "絵文字", "wp_emoji2_ks_metabox_layout", "post", "side", "high");
+    add_meta_box("wp_emoji2_ks", "絵文字", "wp_emoji2_ks_metabox_layout", "page", "side", "high");
 }
 
 
