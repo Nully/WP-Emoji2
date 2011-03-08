@@ -28,7 +28,7 @@
 (function($){
     // WordPress editor window alias
     var w = window || opener || parent || top;
-    var shortcode_base = '[wp_emoji2 code="%code" alt="%alt"]',
+    var shortcode_base = '[wp_emoji2 code="%code" alt="%alt"] ',
         html_base = '<img src="%src" alt="%alt" />';
 
     // insert WordPress supported shortcode tag.
