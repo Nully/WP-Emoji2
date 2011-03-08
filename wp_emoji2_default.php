@@ -54,7 +54,7 @@ function wp_emoji2_default_shortcode($attr = array()) {
  * @return Void
  * @action init
  */
-add_action("admin_init", "wp_emoji2_default_init");
+add_action("add_meta_boxes", "wp_emoji2_default_init");
 function wp_emoji2_default_init() {
     add_meta_box("wp_emoji2_default", "絵文字", "wp_emoji2_default_metabox_layout", "post", "side", "core");
     add_meta_box("wp_emoji2_default", "絵文字", "wp_emoji2_default_metabox_layout", "page", "side", "core");
