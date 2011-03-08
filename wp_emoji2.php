@@ -4,7 +4,7 @@ Plugin Name: WP Emoji2
 Plugin URI:
 Description: KtaiStyleプラグインと合わせて使える絵文字プラグインです。ショートコードを提供し、絵文字変換を行うことが出来ます。また、KtaiStyleプラグインがない場合でも、絵文字を画像タグで挿入することが出来ます。
 Author: Nully
-Version: 0.2
+Version: 0.3
 Author URI: http://blog.nully.org/
 */
 /**
@@ -47,7 +47,7 @@ define("WP_EMOJI2_IMG_URL", WP_EMOJI2_BASE_URL. "images/");
 /**
  * Load scripts
  */
-require_once WP_EMOJI2_BASE_DIR. "wp-emoji2-util.php";
+require_once WP_EMOJI2_BASE_DIR. "wp_emoji2_util.php";
 
 
 /**
