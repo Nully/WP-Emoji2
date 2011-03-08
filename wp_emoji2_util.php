@@ -41,7 +41,7 @@ function wp_emoji2_is_enabled_ktaistyle() {
 function wp_emoji2_get_image_map() {
     static $map;
     if(!$map) {
-        $map = require_once WP_EMOJI2_BASE_DIR. "wp-emoji2-map.php";
+        $map = require_once WP_EMOJI2_BASE_DIR. "wp_emoji2_map.php";
     }
 
     return $map;
