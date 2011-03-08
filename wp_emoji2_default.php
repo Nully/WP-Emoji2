@@ -52,7 +52,7 @@ function wp_emoji2_default_shortcode($attr = array()) {
  * do initialize WP Emoji2 plugin
  * 
  * @return Void
- * @action init
+ * @action add_meta_boxes
  */
 add_action("add_meta_boxes", "wp_emoji2_default_init");
 function wp_emoji2_default_init() {

@@ -57,7 +57,7 @@ function wp_emoji2_ks_shortcode($attr = array()) {
  * do initialize KtayStyle init
  * 
  * @return Void
- * @action  admin_init
+ * @action add_meta_boxes
  */
 add_action("add_meta_boxes", "wp_emoji2_ks_admin_init");
 function wp_emoji2_ks_admin_init() {
